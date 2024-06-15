@@ -1,4 +1,4 @@
-const knex = require("knex");
+import type { knex } from "knex";
 
 const knexFile = require("/Source/Workspace/Demo-Credit/knexfile");
 const environment = process.env.NODE_ENV || "development";
